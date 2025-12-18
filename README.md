@@ -1,13 +1,19 @@
-# Mind's Talks!
+# Mind's Nest Review Center Student Management System
 
-The project aims to provide a dedicated platform for students to directly interact with other students where they can talk about anything they want. May it be stories about their past experiences, frustrations in life and virtually anything else they want to share.
+A full-stack web application tailored for Review Centers to manage student enrollments, section scheduling, and slot reservations. Built with modern web technologies to ensure data integrity and a responsive user experience.
 
-## Getting started
+## 🚀 Tech Stack
 
-From your terminal:
+- **Frontend:** React (Vite), Tailwind CSS, Shadcn UI, TanStack Query
+- **Backend:** FastAPI (Python), Pydantic
+- **Database & Auth:** Supabase (PostgreSQL)
+- **Deployment:** Vercel (Frontend) + DigitalOcean App Platform (Backend)
 
-```sh
-cd <into this folder>
-npm install
-npm run dev
-```
+## 📂 Project Structure
+
+This repository is a monorepo containing both the client and server applications:
+
+```text
+/
+├── backend/            # FastAPI Application (API, Logic, Database Models)
+└── frontend/           # React Application (UI, Admin Panel, Student Portal)
